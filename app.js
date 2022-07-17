@@ -12,3 +12,15 @@ if (button) {
         }
     });
 }
+
+
+function exibe({param1, param2, ...ovo}){
+    console.log(param1)
+    console.log(param2)
+    console.log(ovo)
+  }
+  
+  
+  exibe(param1= 'carro', param2 = 'sopa', 5,6,7,8)
+  
+  

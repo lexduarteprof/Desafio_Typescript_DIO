@@ -69,6 +69,14 @@ function validateLoginButton() {
   }
 }
 
+
+function exibe({param1, param2}){
+  console.log(param1)
+  console.log(param2)
+}
+
+
+
 class HttpClient {
   static async get({url, method, body = null}) {
     return new Promise((resolve, reject) => {
